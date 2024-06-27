@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'futur';
+    src: url('fonts/futur.eot');
+    src: url('fonts/futur.eot') format('embedded-opentype'),
+         url('fonts/futur.woff2') format('woff2'),
+         url('fonts/futur.woff') format('woff'),
+         url('fonts/futur.ttf') format('truetype'),
+         url('fonts/futur.svg#futur') format('svg');
+}

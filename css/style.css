@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 38px;
+}
+
+header{
+    padding: 0;
+}
+
+.top-section{
+    padding: 30px 0;
+}
+
+.top-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-list li{
+    display: inline-block;
+    padding-left: 58px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.top-list li span{
+    font-weight: normal;
+}
+
+.top-list li:first-child{
+    background: url('../images/call-icon.png') no-repeat left;
+    margin-right: 25px;
+}
+
+.top-list li:last-child{
+    background: url('../images/email-icon.png') no-repeat left;
+}
+
+.top-list li span{
+    
+}
+
+nav{
+    padding: 20px 0;
+    background: #2a2c2e;
+}
+
+ul.menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner{
+    position: relative;
+    background: url('../images/banner.png') no-repeat center top;
+    padding: 250px 0 150px;
+}
+
+.banner h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.banner h1 span{
+    color: #99bb17;
+}
+
+.truck-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section.cta{
+    position: relative;
+    background: url(../images/blue-bar.png) no-repeat center;
+    padding: 50px 100px;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    margin: -80px 0 0;
+}
+
+.our-services-section{
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.our-services-section ul{
+    margin: 50px 0 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+}
+
+.our-services-section ul li{
+    display: inline-block;
+    border: 1px solid #b9bbbe;
+    padding: 25px;
+    width: 33.33%;
+    min-height: 300px;
+    vertical-align: top;
+}
+
+.our-services-section ul li:hover{
+    background: url('../images/hover-image.webp') no-repeat center;
+    color:#fff;
+}
+
+.our-services-section ul li h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.statistics-bg{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(../images/statistics-bg.png) no-repeat center;
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+
+.statistics-bg h4{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.statistics-bg h4 span{
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.network-background-image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url('../images/network-background-image.jpg') no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.network-background-image h2{
+    color: #fff;
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.network-background-image h2 span{
+    display: block;
+    font-weight: 400;
+}
+
+.location-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.location-list li{
+    border-radius: 8px;
+    background-image: -moz-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    background-image: -ms-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    width: 203px;
+    height: 55px;
+    display: inline-block;
+    margin: 10px;
+    line-height: 55px;
+    text-transform: uppercase;
+    background: url(../images/location-pin.png) no-repeat left 20px center;
+    color: #fff; background-color: #27292c;
+}
+
+.location-list li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.become-provider-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.become-provider-section h4{
+    color: #00a4bd;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.become-provider-section h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.become-provider-section h2 span{
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.button{
+    background-image: -moz-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    background-image: -ms-linear-gradient(-90deg, rgb(46, 48, 51) 0%, rgb(33, 34, 37) 99%);
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer{
+    background: #2d2e31;
+    padding: 100px 0 20px;
+    color: #fff;
+}
+
+footer h6{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+
+.copywright{
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #424548;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.navbar-toggler{
+    background: #fff;
+}
+
+@media (max-width: 991px){
+.truck-image{
+    position: relative;
+}
+.banner{
+    padding: 50px 0;
+}
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: block !important;
+        flex-basis: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    ul.menu li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px){
+
+.logo    {
+    margin-bottom: 30px;
+}
+
+ul.menu li{
+    padding: 0;
+}
+
+ul.menu li a{
+    display:block;
+    border-bottom: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+
+.top-list li:first-child{
+    margin-bottom: 20px;
+}
+
+    .banner h1 {
+        font-size: 33px;
+    }    
+
+    h2 {
+        font-size: 28px;
+    }
+    
+    .network-background-image h2 {
+        font-size: 26px;
+    }    
+
+    .our-services-section ul {
+        display: block;
+    }    
+section.cta{
+        padding: 20px;
+    }
+    .our-services-section ul li {
+        display: inline-block;
+        width: 100%;
+        min-height: auto;
+        vertical-align: top;
+        max-width: none;
+    }
+    .statistics-bg .col-md-4{
+        border-bottom: 1px solid #fff;
+        margin-bottom: 20px;
+    }
+    .statistics-bg h4 {
+        margin-bottom: 20px;
+    }
+    .banner {
+        padding: 50px 0 50px;
+        background-size: cover;
+    }    
+    .truck-image {
+        position: relative;
+    }
+    footer h6 {
+        margin-top: 25px;
+        font-weight: 800;
+    }
+}
