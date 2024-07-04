@@ -1,2 +1,3 @@
 # van-guard-timing
-Reliable towing and roadside assistance
+
+These are the files for landing page of an Towing company this is fully responsive/mobile friendly
